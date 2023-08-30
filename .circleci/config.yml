@@ -33,7 +33,7 @@ workflows:
               only: /.*/
       - prometheus/build:
           name: build
-          promu_opts: "-p linux/amd64 -p linux/arm64"
+          #promu_opts: "-p linux/amd64 -p linux/arm64"
           filters:
             tags:
               only: /.*/
